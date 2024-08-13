@@ -1,5 +1,5 @@
-const API_KEY = 'AIzaSyAqHgj_1K7auasupa9DWsFH1CM_VgIlKE8'; // Replace with your Google Sheets API key
-const spreadsheetId = '1icO4rsduRQBH1M5XkFQz-44ZPWdsl6om3AObbMdFr50'; // Replace with your Spreadsheet ID
+const API_KEY = ''; // Replace with your Google Sheets API key
+const spreadsheetId = ''; // Replace with your Spreadsheet ID
 
 // Function to fetch data from Google Sheets
 function fetchDataFromGoogleSheets(sheetName) {
