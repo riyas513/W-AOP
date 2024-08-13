@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyATSYakw2CopH20cUaPWMXuAtSAjzGJvc8'; // Replace with your Google Sheets API key
+const API_KEY = '   '; // Replace with your Google Sheets API key
 
 let allData = [];
 const loggedInWorkerId = localStorage.getItem('loggedInWorkerId');
@@ -87,13 +87,13 @@ function loadSheetData(type) {
 
     switch(type) {
         case 'attendance':
-            selectedSpreadsheetId = '1icO4rsduRQBH1M5XkFQz-44ZPWdsl6om3AObbMdFr50'; // Replace with actual Spreadsheet ID for Attendance
+            selectedSpreadsheetId = ''; // Replace with actual Spreadsheet ID for Attendance
             selectedSheet = document.getElementById('attendance-sheet-select').value;
             tableHeadId = 'attendance-table-head';
             tableBodyId = 'attendance-table-body';
             break;
         case 'piecerate':
-            selectedSpreadsheetId = '1DYMw087ZAIt3YXyWE3lAv9UoD4dUbHA9OAY98PTayqM'; // Replace with actual Spreadsheet ID for Piecerate
+            selectedSpreadsheetId = ''; // Replace with actual Spreadsheet ID for Piecerate
             selectedmonth = document.getElementById('piecerate-sheet-select').value;
             selectedmachine = document.getElementById('worker-combo-select').value;
             selectedSheet = selectedmonth + "_" + selectedmachine;
@@ -101,7 +101,7 @@ function loadSheetData(type) {
             tableBodyId = 'piecerate-table-body';
             break;
         case 'workingIncentive':
-            selectedSpreadsheetId = '1oh2HWWZvlv0uUixtrAAKOQ4iU8MpmBlC8TCahozMyJA'; // Replace with actual Spreadsheet ID for Incentives
+            selectedSpreadsheetId = ''; // Replace with actual Spreadsheet ID for Incentives
             selectedSheet = document.getElementById('working-incentive-sheet-select').value;
             tableHeadId = 'working-incentive-table-head';
             tableBodyId = 'working-incentive-table-body';
